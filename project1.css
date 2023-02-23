@@ -1,22 +1,58 @@
-body{
-    background-color: rgb(244, 222, 25);
-    font-family: var(--fonts-primary);
+body {
     font-size: 14px;
     min-height: 100vh;
     text-align: center;
 }
-#letter{
-    font-size: 50px;
+
+#letter {
+    font-size: 40px;
 }
-#tens{
+
+#time {
     font-size: 30px;
 }
-#seconds{
-    font-size: 30px;
-}
-#start{
+
+
+button {
+    position: relative;
+    background-color: #ff794d;
+    border: 5px;
+    border-radius: 10px;
+    font-family: Vazir;
     font-size: 20px;
-}
-#colon{
+    color: #FFFFFF;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+#colon {
     font-size: 1000px;
 }
+
+p {
+    font-weight: bold;
+}
+
+.MainBox {
+    position: relative;
+    margin: auto;
+    font-family: Vazir;
+    background-color: #ffbf80;
+    width: 500px;
+    height: 500px;
+    border: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #b32d00;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url(webfonts/Vazirmatn-Bold.woff2);
+}
+
