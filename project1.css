@@ -28,7 +28,7 @@ button {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-  }
+}
 
 #colon {
     font-size: 1000px;
@@ -55,4 +55,3 @@ p {
     font-family: Vazir;
     src: url(webfonts/Vazirmatn-Bold.woff2);
 }
-

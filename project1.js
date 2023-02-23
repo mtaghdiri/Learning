@@ -22,7 +22,7 @@ setInterval(function () {
     if (start)
         time = time + 1;
     point = Math.floor(time / 100) + ":" + time % 100
-        document.getElementById("time").innerHTML = point;
+    document.getElementById("time").innerHTML = point;
 }, 10);
 
 function nextChar() {
